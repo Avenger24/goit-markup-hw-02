@@ -215,5 +215,51 @@ letter-spacing: 0.02em;
 
 }
 
+.buttontype {
+    background-color: var(--main-background-color);
+}
+.buttons {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.04em;
 
+}
+.first-button {
+    background-color: var(--brand-color);
+    color: var(--white-text-color);
+}
+.second-button {
+    background-color: #E7E9FC;
+    color: var(--brand-color);
+}
+
+.imgs {
+    background-color: var(--main-background-color);
+}
+.img {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em; }
+
+
+.img .third-tittle {
+color: var( --tittle-text-color)
+}
+.img .third-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+
+letter-spacing: 0.02em;
+
+
+color: var(--description-text-color);
+
+}
 
