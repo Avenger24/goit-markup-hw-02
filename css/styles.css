@@ -25,7 +25,7 @@ letter-spacing: 0.02em;
     color: var(--tittle-text-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-font-style: normal;
+
 font-weight: 800;
 font-size: 18px;
 line-height:1,33;
@@ -36,17 +36,7 @@ letter-spacing:0.03em;
     color: var(--brand-color);
 }
 
-.site-nav {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-font-size: 16px;
-line-height: 1,5;
 
-
-
-
-}
 .site-nav .link {
     color: var(--tittle-text-color);
     text-decoration: none;
@@ -61,45 +51,38 @@ color: var(--brand-color);
 
 .contact {
 font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-
 
 }
+
 .contact .links {
 color: var(--description-text-color);
     text-decoration: none;
 }
- .contact .links:hover,
+ 
+.contact .links:hover,
  .contact .links:focus {
 
- 
     color: var(--brand-color);
 }
+
 .hero {
     background-color: var( --tittle-text-color);
 }
+
 .hero-tittle {
-font-style: normal;
-font-weight: 600;
+
+
 font-size: 56px;
 line-height: 1,07;
-
-
 text-align: center;
-letter-spacing: 0.02em;
-
-
-
 color: var(--white-text-color);
 }
+
 .button {
-font-style: normal;
-font-weight: 600;
 font-size: 16px;
 line-height:1,87;
 text-align: center;
-
+cursor: pointer;
 
 letter-spacing: 0.04em;
 
@@ -108,156 +91,165 @@ letter-spacing: 0.04em;
 .main-button {
     background-color: var(--brand-color);
     color: var(--white-text-color);
-    cursor: pointer;
+    
 }
-.main-button:hover {
-   background-color: var(--brand-color);
-    color: var(--white-text-color); 
+
+.main-button:hover,
+.main-button:focus
+{
+
+background-color: #404BBF;
 
 }
-.main-button:focus {
-    background-color: #404BBF;
-}
+
+
 .main {
+    
     background-color: var(--main-background-color);
-
-
 }
+
 .main .visibility {
     visibility: hidden;
 }
+
 .main-qualities {
-font-style: normal;
-font-weight: 600;
 font-size: 20px;
 line-height: 1,2;
-letter-spacing: 0.02em;
+
 
 }
 .main-qualities .tittle {
 color: var(--tittle-text-color);
 }
+
 .main-qualities .kind {
-    font-weight: 400;
+  font-weight: 400;
 font-size: 16px;
 line-height: 1,5;
 
+
 color: var(--description-text-color);
 }
+
 .main-photos {
-    background-color:#E5E5E5;
+    background-color: var(--main-background-color);
 }
+
 .second-tittle {
-font-style: normal;
-font-weight: 600;
 font-size: 36px;
 line-height: 1,1;
 text-align: center;
-letter-spacing: 0.02em;
 text-transform: capitalize;
+
 
 color: var(--tittle-text-color);
 
 }
+
 .photos {
     background-color: var(--background-color);
 }
+
 .workers .employee {
     background-color: var(--white-text-color);
-    
-font-style: normal;
-font-weight: 600;
 font-size: 20px;
 line-height: 1,2;
-letter-spacing: 0.02em;
 color: var(--description-text-color);
     text-align: left;
 }
+
 .workers .features{
     background-color: var(--white-text-color);
     
 font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
+
 color: var(--description-text-color);
     text-align: left;
 }
+
 .information {
     background-color: var(--tittle-text-color);
 }
+
 .secondary-logo {
     color: var(--background-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height:1,33;
 letter-spacing:0.03em;
 }
+
 .secondary-accent {
    color: var(--brand-color); 
 }
+
 .second-kind {
     color: #E7E9FC;
-    font-family: Roboto, sans-serif;
-font-style: normal;
+    
 font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-
-
-letter-spacing: 0.02em;
-
-
-
 
 }
+
 
 .buttontype {
     background-color: var(--main-background-color);
 }
+
 .buttons {
-    font-family: Roboto, sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 1,5;
+    
 letter-spacing: 0.04em;
+cursor: pointer;
 
 }
+
 .first-button {
     background-color: var(--brand-color);
     color: var(--white-text-color);
 }
+
+.first-button:hover,
+.first-button:focus
+{
+    background-color: #404BBF;
+}
+
+
 .second-button {
     background-color: #E7E9FC;
     color: var(--brand-color);
 }
 
+.second-button:hover,
+.second-button:focus {
+    background-color: #404BBF;
+}
+
+
+
+
+
 .imgs {
     background-color: var(--main-background-color);
 }
+
 .img {
-    font-family: Roboto, sans-serif;
-font-style: normal;
-font-weight: 600;
+    
 font-size: 20px;
 line-height: 1,2;
-letter-spacing: 0.02em; }
+ }
 
 
-.img .third-tittle {
+
+ .img .third-tittle {
 color: var( --tittle-text-color)
 }
+
 .img .third-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1,5;
-
-letter-spacing: 0.02em;
-
 
 color: var(--description-text-color);
 
