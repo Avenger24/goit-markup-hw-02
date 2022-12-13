@@ -4,12 +4,51 @@
     --background-color: #F4F4FD;
     --description-text-color: #434455;
 }
-body {
-    
+.basis-body {
+    background-color: #ffffff;
+    color: var(--tittle-text-color);
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
 
+}
+.list {
+    list-style: none;
 }
 
 .logo {
-    color:#4D5AE5;
+    color: var(--tittle-text-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height:1,33;
+letter-spacing:0.03em;
 
+}
+ .accent {
+    color: var(--brand-color);
+}
+
+.site-nav {
+    color: var(--tittle-text-color);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-decoration:none;
+    font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+
+}
+.contact {
+    color: var(--description-text-color);
+    text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
 }
