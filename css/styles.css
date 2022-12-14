@@ -13,7 +13,7 @@
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 
 }
@@ -28,7 +28,7 @@ letter-spacing: 0.02em;
 
 font-weight: 800;
 font-size: 18px;
-line-height:1,33;
+line-height:1.33;
 letter-spacing:0.03em;
 
 }
@@ -42,12 +42,13 @@ letter-spacing:0.03em;
     text-decoration: none;
 
 }
-.site-nav .link:hover {
-    color: var(--description-text-color);
+.site-nav .link:hover,
+.site-nav .link:focus  {
+   color: var(--brand-color);
 }
-.site-nav .link:focus {
-color: var(--brand-color);
-}
+
+
+
 
 .contact {
 font-weight: 400;
@@ -73,16 +74,15 @@ color: var(--description-text-color);
 
 
 font-size: 56px;
-line-height: 1,07;
+line-height: 1.07;
 text-align: center;
 color: var(--white-text-color);
 }
 
 .button {
 font-size: 16px;
-line-height:1,87;
+line-height:1.87;
 text-align: center;
-cursor: pointer;
 
 letter-spacing: 0.04em;
 
@@ -99,13 +99,14 @@ letter-spacing: 0.04em;
 {
 
 background-color: #404BBF;
-
+cursor: pointer;
 }
+
 
 
 .main {
     
-    background-color: var(--main-background-color);
+    background-color: #ffffff ;
 }
 
 .main .visibility {
@@ -114,7 +115,7 @@ background-color: #404BBF;
 
 .main-qualities {
 font-size: 20px;
-line-height: 1,2;
+line-height: 1.2;
 
 
 }
@@ -125,19 +126,19 @@ color: var(--tittle-text-color);
 .main-qualities .kind {
   font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 
 
 color: var(--description-text-color);
 }
 
 .main-photos {
-    background-color: var(--main-background-color);
+    background-color: #ffffff;
 }
 
 .second-tittle {
 font-size: 36px;
-line-height: 1,1;
+line-height: 1.1;
 text-align: center;
 text-transform: capitalize;
 
@@ -153,7 +154,7 @@ color: var(--tittle-text-color);
 .workers .employee {
     background-color: var(--white-text-color);
 font-size: 20px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--description-text-color);
     text-align: left;
 }
@@ -177,7 +178,7 @@ color: var(--description-text-color);
     font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height:1,33;
+line-height:1.33;
 letter-spacing:0.03em;
 }
 
@@ -213,12 +214,14 @@ cursor: pointer;
 .first-button:focus
 {
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 
 .second-button {
     background-color: #E7E9FC;
     color: var(--brand-color);
+    cursor: pointer;
 }
 
 .second-button:hover,
@@ -233,11 +236,14 @@ cursor: pointer;
 .imgs {
     background-color: var(--main-background-color);
 }
+.imgs .visibility {
+    visibility: hidden;
+}
 
 .img {
     
 font-size: 20px;
-line-height: 1,2;
+line-height: 1.2;
  }
 
 
@@ -249,7 +255,7 @@ color: var( --tittle-text-color)
 .img .third-text {
 font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 
 color: var(--description-text-color);
 
