@@ -195,7 +195,7 @@ font-weight: 400;
 
 
 .buttontype {
-    background-color: var(--main-background-color);
+    background-color: #ffffff;
 }
 .buttontype .visibility {
     visibility: hidden;
@@ -236,7 +236,7 @@ cursor: pointer;
 
 
 .imgs {
-    background-color: var(--main-background-color);
+    background-color: #ffffff;
 }
 .imgs .visibility {
     visibility: hidden;
