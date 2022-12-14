@@ -197,7 +197,9 @@ font-weight: 400;
 .buttontype {
     background-color: var(--main-background-color);
 }
-
+.buttontype .visibility {
+    visibility: hidden;
+}
 .buttons {
     
 letter-spacing: 0.04em;
