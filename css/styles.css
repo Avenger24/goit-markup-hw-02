@@ -6,7 +6,7 @@
     --white-text-color: #ffffff;
     --description-text-color: #434455;
 }
-.basis-body {
+body {
     background-color: var(--white-text-color);
     color: var(--tittle-text-color);
     font-family: Roboto, sans-serif;
@@ -235,12 +235,7 @@ cursor: pointer;
 
 
 
-.imgs {
-    background-color: #ffffff;
-}
-.imgs .visibility {
-    visibility: hidden;
-}
+
 
 .img {
     
